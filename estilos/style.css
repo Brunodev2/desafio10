@@ -78,7 +78,7 @@ nav{
 }
 main{
     margin: auto;
-    min-width: 320px;
+    min-width: 375px;
     max-width: 1000px;
     background-color: white;
     padding: 20px;
