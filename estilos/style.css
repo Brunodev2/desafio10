@@ -105,7 +105,7 @@ main > img{
 
 }
 p{
-    margin: 5px 0px;
+    margin: 10px 0px;
     text-align: justify;
 }
 .irina{
@@ -129,7 +129,21 @@ footer {
 footer p{
     text-align: center;
 }
+footer a{
+color: #36A86B;
+font-weight: bold;
+font-size: 1.2em;
+}
 
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+main a {
+text-decoration: underline;
+color: #36A86B;
+}
 
 .andro{
     display: block;
@@ -141,7 +155,16 @@ footer p{
     display: block;
     margin: auto;
     padding: 20px 0px;
+    background-color: #45DB8A;
+    padding: 10px;
+    margin: 10px 0px;
+   
 }
+div iframe{
+    display: block;
+    margin: auto;
+}
+
 
 nav{
     text-align: center;
@@ -164,18 +187,68 @@ nav > a:hover{
 }
 ul{
     padding: 20px 0px;
+    
 }
-<<<<<<< Updated upstream
 
-=======
-footer a{
-    color:var(--cor5);
-    text-decoration: underline;
-    font-weight: bold;
+aside{
+    background-color: #45DB8A;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px 10px 0px 0px;
 }
-main a{
-    color:var(--cor5);
-    text-decoration: underline;
-    font-weight: bold;
+aside > h3{
+    background-color: #1D5C3B;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
 }
->>>>>>> Stashed changes
+
+section{
+    max-width: 1600px;
+}
+
+
+@media (max-width:1440px){
+    section{
+width: 1200px;
+    .frame{
+        width: 800px;
+        height: 450px;
+    }
+}
+}
+
+
+@media (max-width:1000px){
+    section{
+width: 800px;
+    .frame{
+        width: 500px;
+        height: 350px;
+    }
+}
+
+}
+
+
+@media (max-width:700px){
+    section{
+width: 500px;
+    .frame{
+        width: 400px;
+        height: 300px;
+    }
+}
+}
+@media (max-width:400px){
+    section{
+width: 375px;
+    .frame{
+        width: 350px;
+        height: 300px;
+    }
+}
+}
+
+
